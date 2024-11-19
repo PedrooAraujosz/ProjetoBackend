@@ -4,9 +4,6 @@
 @{
     ViewData["Title"] = "LOGIN";
 }
-
-<div class="bi-patch-question-fill;  bi-123"</div>
-
 <div style="margin-auto:0 auto; margin-top:200px">
     <div class="row justify-content-center mt-5" style="margin-top:100px;">
 
@@ -36,7 +33,7 @@
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <button id="login-submit" type="submit" class="w-100 btn  btn-primary holaaa">Entrar</button>
+                            <button id="login-submit" type="submit" class="w-100 btn  btn-primary">Entrar</button>
                         </div>
 
                         <div class="col-6">
@@ -47,9 +44,7 @@
                     <p>
                         <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu a senha ?</a>
                     </p>
-                    <p>
-                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">E-mail de verificação</a>
-                    </p>
+
                 </form>
             </section>
         </div>
@@ -77,13 +72,8 @@
                 }
             }
         </section>
-
-        <div>
-        </div>
-
     </div>
 </div>
-
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
